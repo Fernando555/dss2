@@ -47,7 +47,7 @@ if ($_POST) {
                         <div class="panel-footer">
                             <button type="submit" class="btn btn-dark raised btn-block">Login</button>
                             <br>
-                            <p class="text-center">PT. Global Eushanosoft</p>
+                            <p class="text-center">Watson Group Software</p>
                         </div>
                     </div>
                 </form>
