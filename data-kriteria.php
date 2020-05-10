@@ -47,7 +47,7 @@ if (isset($_POST['hapus-contengan'])) {
     		</div>
     		<div class="col-md-6 text-right">
           <div class="btn-group">
-            <button type="submit" name="hapus-contengan" class="btn btn-danger"><span class="fa fa-close"></span> Hapus Contengan</button>
+            <button type="submit" name="hapus-contengan" class="btn btn-danger"><span class="fa fa-close"></span> Hapus </button>
       			<button type="button" onclick="location.href='data-kriteria-baru.php'" class="btn btn-primary"><span class="fa fa-clone"></span> Tambah Data</button>
           </div>
     		</div>
@@ -63,15 +63,6 @@ if (isset($_POST['hapus-contengan'])) {
               <th width="100px">Aksi</th>
             </tr>
           </thead>
-          <tfoot>
-            <tr>
-                <th><input type="checkbox" name="select-all2" id="select-all2" /></th>
-                <th>ID Kriteria</th>
-                <th>Nama Kriteria</th>
-                <th>Bobot Kriteria</th>
-                <th>Aksi</th>
-            </tr>
-          </tfoot>
           <tbody>
             <?php $no=1; while ($row = $stmt->fetch(PDO::FETCH_ASSOC)) :  ?>
               <tr>

@@ -1,0 +1,22 @@
+*data_kriteria:
+1.id_kriteria-  Int(50) PK
+2.nama_kriteria- Varchar(50)
+3.bobot_kriteria- Int(50)
+
+*nilai = sub_kriteria
+1.id_sub - Int(50) PK
+2.nilai_sub - int(50)
+3.ket_sub - varchar(50)
+
+*data_alternatif (import csv kita)
+
+*user
+1.id_user - Int(50)PK
+2.nama_lengkap - varchar(50)
+3.role - varchar(50)
+4.username - varchar(50)
+5.password - varchar(50)
+
+
+
+

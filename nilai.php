@@ -47,7 +47,7 @@ if (isset($_POST['hapus-contengan'])) {
           </div>
           <div class="col-md-6 text-right">
             <div class="btn-group">
-              <button type="submit" name="hapus-contengan" class="btn btn-danger"><span class="fa fa-close"></span> Hapus Contengan</button>
+              <button type="submit" name="hapus-contengan" class="btn btn-danger"><span class="fa fa-close"></span> Hapus </button>
               <button type="button" onclick="location.href='nilai-baru.php'" class="btn btn-primary"><span class="fa fa-clone"></span> Tambah Data</button>
             </div>
           </div>
